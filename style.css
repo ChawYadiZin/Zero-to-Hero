@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(228, 225, 220);
+}
+
+.container{
+    width: 1024px;
+    height:1000px;
+    background: rgb(219, 217, 214);
+    margin: 0 auto;
+    /*left top right bottom*/
+}
+ul {
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-right: 2px;
+    padding: 10px;
+    background: cornflowerblue;
+    border-radius: 5px;
+    
+}
+li:hover{
+    background-color: darksalmon;
+    cursor:arrow;
+    color: darkslategray;
+    
+}
+.item{
+    width:33.3%;    
+    height: 200px;
+    background-color: dodgerblue;
+    float:left;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-palegreen{
+    background-color: palegreen;
+}
+.bg-palevioletred{
+    background-color:palevioletred;
+}
+.product{
+    width: 50%;
+    height: 200px;
+    background-color: dodgerblue;
+    float: left;
+}
+.bg-royalblue{
+    background-color:royalblue;
+}
